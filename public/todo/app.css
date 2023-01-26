@@ -1,0 +1,42 @@
+.wrapper {
+    min-height: 100vh;
+    background-color: beige;
+}
+
+.todo-form {
+    width: 700px;
+    padding: 2.5rem;
+    background-color: aliceblue;
+}
+
+.todo-form .form-control {
+    height: 55px;
+}
+
+.todo-form .btn {
+    height: 50px;
+    margin-bottom: -1rem;
+}
+
+.todo-form .form-control::placeholder {
+    text-transform: capitalize;
+}
+
+.todo-form .btn {
+    width: 75px;
+}
+
+/* todo list */
+.todo-list {
+    padding: 2rem;
+    width: 700px;
+}
+
+.todo-list .item {
+    padding: 2rem;
+    background-color: burlywood;
+}
+
+.todo-list .item .text {
+    line-height: 1.6;
+}
